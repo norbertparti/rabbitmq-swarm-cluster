@@ -1,13 +1,11 @@
-======================
-rabbitmq-swarm-cluster
-======================
+# rabbitmq-swarm-cluster
+
 
 This docker image is built to get a lightweight rabbitmq cluster without any
 external dependencies. It is designed to work in docker swarm mode.
 
 
-Basic Concept
-=============
+# Basic Concept
 
 Once the rabbitmq-server is up and running the join.sh script will try to join
 this server instance to a reachable peer. Available peers are determined via
